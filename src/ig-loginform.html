@@ -1,0 +1,54 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/output.css">
+    <title>IG Login Form</title>
+</head>
+<body class="flex justify-center items-center min-h-screen bg-gray-100">
+
+    <div class="w-96 bg-white rounded-lg shadow-lg p-6 text-center">
+        <img class="w-32 mx-auto" 
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Instagram_logo.svg/1200px-Instagram_logo.svg.png?20160616034027" 
+            alt="Instagram Logo">
+
+        <form action="#" method="POST" class="space-y-4 mt-4">
+            <div class="space-y-2">
+                <input type="text" placeholder="Phone number, username, or email" 
+                    class="w-full px-3 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500">
+                
+                <input type="password" placeholder="Password"  
+                    class="w-full px-3 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500">
+            </div>
+
+            <button type="submit" 
+                class="w-full bg-blue-600 text-white py-2 rounded-md font-semibold hover:bg-blue-700 transition">
+                Log in
+            </button>
+        </form>
+
+      
+        <div class="flex items-center space-x-2 mt-4">
+            <div class="border-b flex-1 border-gray-300"></div>
+            <p class="text-gray-600 text-sm">OR</p>
+            <div class="border-b flex-1 border-gray-300"></div>
+        </div>
+
+        <button class="text-blue-700 w-full mt-4 flex items-center justify-center space-x-2">
+            <img class="h-5 w-5 rounded-full" src="https://upload.wikimedia.org/wikipedia/commons/c/cd/Facebook_logo_%28square%29.png" 
+                alt="Facebook Logo">
+            <span>Log in with Facebook</span>
+        </button>
+
+       
+        <a class="block mt-4 text-blue-600 text-sm text-center hover:underline" href="#">
+            Forgot Password?
+        </a>
+    </div>
+
+</body>
+</html>
+
